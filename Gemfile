@@ -15,6 +15,10 @@ gem "paperclip", "~> 3.0"
 # Use faker to generate fake data
 gem 'faker'
 
+# Use will_paginate to create pagination on pages
+gem 'will_paginate', '3.0.3'
+gem 'bootstrap-will_paginate', '0.0.6'
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
