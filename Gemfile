@@ -12,6 +12,9 @@ gem 'simple_form'
 # Use paperclip in order to attach files such as images to pins.
 gem "paperclip", "~> 3.0"
 
+# Use faker to generate fake data
+gem 'faker'
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
