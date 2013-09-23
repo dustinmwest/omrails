@@ -19,9 +19,6 @@ gem 'faker'
 gem 'will_paginate', '3.0.3'
 gem 'bootstrap-will_paginate', '0.0.6'
 
-# Use fullcalendar to create a functioning calendar
-gem 'fullcalendar-rails', '~> 1.6.4.0'
-
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
