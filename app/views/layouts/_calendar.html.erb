@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <script>
 $(document).ready(function() {
 /* initialize the external events
@@ -93,3 +94,45 @@ float: right;
 width: 900px;
 }
 </style>
+=======
+<script> $(document).ready(function() {
+
+	// page is now ready, initialize the calendar...
+
+    $('#calendar').fullCalendar({
+        // put your options and callbacks here
+        header: {
+        	left: 'prev, next today',
+        	center: 'title',
+        	right: 'agendaWeek, agendaDay',
+        },
+        ignoreTimezone: false,
+        firstDay: 1,
+        weekends: false,
+        hiddenDays: [2],
+        slotMinutes: 15,
+        selectable: true,
+        defaultView: 'agendaWeek',
+        selectHelper: true,
+        events: [
+        {
+            title: 'Event1',
+            start: '2013-09-20'
+        },
+        {
+            title: 'Event2',
+            start: '2013-09-18 12:30:00'
+        }
+        // Will probably want to use eventSources to populate the events and have the source be the user's calendar.
+    ],
+    eventColor: 'yellow',   // an option!
+    eventTextColor: 'black', // an option!
+    allDayDefault: false,
+    editable: true,
+    droppable: true
+        
+    })
+
+    });
+</script>
+>>>>>>> 29b5bbfb4b141ac8c6c65dc237ba1c11916dc6ea
