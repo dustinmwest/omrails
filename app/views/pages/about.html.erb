@@ -21,3 +21,16 @@
 	<div id='calendar'></div>
 	<div style='clear:both'></div>
 </div>
+
+<div>
+	<%= form_for :subject do |f| %>
+
+		<%= f.text_field(:name) %>
+		<%= f.text_field(:position) %>
+		<%= f.time_select(:created_at, :minute_step => 15) %>
+		<%= submit_tag("Create Subject") %>
+
+	<% end %>
+
+</div>
+

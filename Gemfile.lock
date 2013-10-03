@@ -36,6 +36,7 @@ GEM
     bootstrap-will_paginate (0.0.6)
       will_paginate
     builder (3.0.4)
+    cancan (1.6.10)
     climate_control (0.0.3)
       activesupport (>= 3.0)
     cocaine (0.5.1)
@@ -70,6 +71,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.25)
     multi_json (1.8.0)
+    nbrew-simple_time_select (0.2.0)
     orm_adapter (0.4.0)
     paperclip (3.5.1)
       activemodel (>= 3.0.0)
@@ -138,10 +140,12 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass (~> 2.2.2.0)
   bootstrap-will_paginate (= 0.0.6)
+  cancan
   coffee-rails (~> 3.2.1)
   devise
   faker
   jquery-rails
+  nbrew-simple_time_select (~> 0.2.0)
   paperclip (~> 3.0)
   pg
   rails (= 3.2.12)

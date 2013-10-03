@@ -3,5 +3,10 @@ class PagesController < ApplicationController
   end
 
   def about
+  	render :layout => "calendar"
+  end
+
+  def contact
+  	render :layout => "contact"
   end
 end

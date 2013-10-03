@@ -19,6 +19,12 @@ gem 'faker'
 gem 'will_paginate', '3.0.3'
 gem 'bootstrap-will_paginate', '0.0.6'
 
+# Use cancan to create different user roles
+gem "cancan"
+
+# Use simple_time to create one time field
+gem "nbrew-simple_time_select", "~> 0.2.0"
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
